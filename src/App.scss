@@ -1,0 +1,53 @@
+
+body {
+  background-color: #393939;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#drum-machine {
+
+}
+
+#display-box {
+  background-color: #535353;
+  font-size: 25px;
+  font-weight: bold;
+  max-width: 700px;
+  margin: 0 auto;
+  color: aquamarine;
+}
+
+#key-box {
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 350px;
+  margin: 30px auto;
+
+
+}
+.drum-pad {
+  background-color: #DD8757;
+  height: 100px;
+  border: none;
+  font-size: x-large;
+
+}
+
+.switch-mode {
+  background-color: #DD8757;
+  margin: 0 auto;
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .drum-pad {
+    height: 60px;
+
+  }
+
+  #key-box {
+    max-width: 200px;
+  }
+
+}
